@@ -51,4 +51,12 @@
 <br>
 <br>
 
+### 채팅뷰
+- + 버튼을 누르면 unsplash api를 이용해 받아온 사진을 받아오는 갤러리버튼과 카메라버튼이 있는 fragment창이 뜬다.
+- 갤러리버튼을 클릭하면 사진이 뜨고 사진을 클릭하면 채팅RecyclerView에 사진이 보여진다.
+- 마찬가지로 카메라 버튼을 누르면 카메라 권한 동의를 얻는 창이 뜨고 동의시 카메라가 나타난다.
+- 본인이 찍은 사진을 확인하고 확인버튼을 클릭하면 채팅RecyclerView에 방금찍은 사진이 보여진다.
+- 개별화된 Holder를 통한 Adapter 구성하여 하나의 RecyclerView에서 데이터타입을 구별하고 바인딩을 한다.
+- 사진데이터는 LiveData를 사용하여 adapter로 url을 전송한다.
+<img src="https://github.com/rlawlgp0197/App/assets/134493927/32fb41ff-39f3-4420-a667-f50f632afc9d.jpg"  width="200" height="400"/>
 
